@@ -9,7 +9,7 @@ object pizza {
 
   def main(args: Array[String]): Unit = {
     val spark: SparkSession = SparkSession.builder()
-      .appName("netflix")
+      .appName("pizza")
       .master("local")
       .getOrCreate()
 
